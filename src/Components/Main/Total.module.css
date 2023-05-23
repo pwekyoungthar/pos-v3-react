@@ -1,0 +1,35 @@
+.right-section-bottom {
+  height: 10rem;
+  background-color: var(--light-blue);
+  padding: 2rem 0 0 3.5rem;
+}
+.right-section-bottom span:nth-child(1) {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 3rem;
+}
+.right-section-bottom span:nth-child(2) {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+.right-section-bottom span:nth-child(3) {
+  color: var(--white);
+  font-weight: 700;
+  font-size: 3rem;
+  margin-left: 3rem;
+}
+
+.btn-buy {
+  display: block;
+  font-size: 1.8rem;
+  color: blue;
+  border: none;
+  outline: none;
+  width: 30%;
+  height: 3rem;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 1rem;
+}

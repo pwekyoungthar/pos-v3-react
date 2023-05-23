@@ -1,0 +1,35 @@
+/* Header */
+.header {
+  width: 100%;
+  height: 60px;
+  padding: 0 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--light-blue);
+}
+
+.profile {
+  width: 5rem;
+  height: 5rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+
+/* New Item Button */
+.newItem-btn {
+  padding: 1.2rem 3.2rem;
+  border-radius: 0.9rem;
+  color: var(--light-blue);
+}

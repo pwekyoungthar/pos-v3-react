@@ -1,0 +1,22 @@
+.left-section-item {
+  width: 90%;
+  background-color: var(--light-blue);
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--white);
+  margin: 16px 32px;
+  padding: 16px 32px;
+  border-radius: 0.9rem;
+}
+.left-section-item ul {
+  list-style: none;
+
+  display: flex;
+  gap: 3.2rem;
+}
+
+.left-section-item ul li:nth-child(3) {
+  margin-left: auto;
+  flex-shrink: 0;
+  cursor: pointer;
+}

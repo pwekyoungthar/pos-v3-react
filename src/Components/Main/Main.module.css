@@ -1,0 +1,18 @@
+/* Main Section */
+.main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.left-section {
+  grid-row: 1 /3;
+  height: 89vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.right-section-top {
+  border: 2px solid var(--dark-blue);
+  height: 70vh;
+  overflow-y: auto;
+}

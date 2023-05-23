@@ -1,0 +1,7 @@
+.back-drop {
+  width: 120%;
+  height: 120%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 99;
+}

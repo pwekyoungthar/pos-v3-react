@@ -1,0 +1,22 @@
+.profile-detail{
+    background-color: var(--light-blue);
+    width:25rem;
+    font-size: 1.6rem;
+    line-height: 1.1;
+    padding:1.6rem 3.2rem;
+    border-radius: 0.9rem;
+    color: var(--white);
+    border : 2px solid var(--white);
+    box-shadow: 3px 3px 100px var(--gray);
+    position: absolute;
+    right:2.5rem;
+    top:6rem;
+    transition: .3s;
+  }
+  .profile-detail ul{
+    list-style: none;
+  }
+  .profile-detail ul li{
+    margin-top:1.6rem;
+    cursor: pointer;
+  }

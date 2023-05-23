@@ -1,0 +1,36 @@
+.cart-item {
+  background-color: var(--dark-blue);
+  width: 95%;
+  height: 7rem;
+  color: var(--white);
+  font-size: 2rem;
+  display: flex;
+  padding: 1.6rem 3.2rem;
+  align-items: center;
+  margin: 0.8rem 1.6rem;
+  border-radius: 0.9rem;
+}
+.item-info {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+.count {
+  background-color: var(--white);
+  color: var(--black);
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  padding-top: 8px;
+  margin-left: auto;
+}
+.action-buttons {
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.action-buttons button {
+  color: var(--dark-blue);
+  cursor: pointer;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.8rem;
+}

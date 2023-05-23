@@ -1,0 +1,17 @@
+App
+	-	Backdrop
+	-	Modal Box
+	-	Header
+		-	Brand		- Logo / Title
+		-	SearchForm 	- Seaerch Input / Search Button
+		-	New Item Button
+		-	Profile
+	-	Main
+		-	Left Size Bar
+			-	Items List
+				-	Item
+		-	Right Top Size Bar
+			-	Cart Area
+				-	Oreder Item
+		-	Right Bottom Size Bar
+			-	Totla

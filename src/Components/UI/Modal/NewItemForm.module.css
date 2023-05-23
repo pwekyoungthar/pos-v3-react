@@ -1,0 +1,36 @@
+.new-item-form {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  row-gap: 2rem;
+  font-size: 1.8rem;
+  color: var(--light-blue);
+  margin: 1.6rem 0;
+  padding: 0 1.6rem;
+}
+.new-item-form input,
+.new-item-form select {
+  height: 35px;
+  font-size: 1.8rem;
+  background-color: transparent;
+
+  border: none;
+  border-bottom: 1px solid var(--black);
+}
+.new-item-form button {
+  grid-column: 1 / 3;
+  background-color: var(--light-blue);
+  color: var(--white);
+  font-size: 2rem;
+  width: 50%;
+  margin-left: auto;
+}
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+.new-item-form input:focus,
+.new-item-form select:focus {
+  outline: none;
+}

@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
+
+/* New Item Button */
+.newItem-btn {
+  padding: 1.2rem 3.2rem;
+  border-radius: 0.9rem;
+  color: var(--light-blue);
+}

@@ -1,0 +1,14 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.logo-icon {
+  color: var(--white);
+  font-size: 4.4rem;
+}
+.title {
+  color: var(--white);
+  font-size: 3rem;
+  line-height: 1;
+}

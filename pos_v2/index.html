@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY POS</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile-detail hidden">
+        <ul class="profile-list">
+          <li>Seller Name</li>
+          <li>Change Password</li>
+          <li>Log Out</li>
+        </ul>
+      </div>
+      <!-- <div class="back-drop"></div>
+      <div class="modal-box">
+        <div class="modal-header">
+          <h2>New Item</h2>
+        </div>
+        <form action="" class="new-item-form">
+          <label for="item-cat">Category Name</label>
+          <select name="" id="item-cat">
+            <option value="">Hello World</option>
+            <option value="">Hello World</option>
+            <option value="">Hello World</option>
+            <option value="">Hello World</option>
+            <option value="">Hello World</option>
+          </select>
+          <label for="item-name">Item Name</label>
+          <input type="text" id="item-name" />
+          <label for="item-price">Price</label>
+          <input type="number" id="item-price" />
+          <label for="item-qty">Quantity</label>
+          <input type="number" id="item-qty" />
+          <button class="btn">Confirm</button>
+        </form>
+        <div class="modal-footer"></div>
+      </div> -->
+      <header class="header">
+        <div class="logo">
+          <i class="fa-brands fa-apple logo-icon"></i>
+          <h2 class="title">My POS</h2>
+        </div>
+        <form action="#">
+          <input type="text" placeholder="Search Item" class="search_input" />
+          <button class="btn search-btn">
+            <i class="fa-solid fa-magnifying-glass-plus"></i>
+          </button>
+        </form>
+        <button class="btn newItem-btn">New Item</button>
+        <div class="profile">
+          <a href="#">
+            <img
+              src="./img/profile.jpg"
+              alt="Seller Profile"
+              class="profile-img"
+            />
+          </a>
+        </div>
+      </header>
+      <main class="main">
+        <div class="left-section">
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+          <div class="item">
+            <ul>
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="right-section-top">
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">1</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">1</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">1</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">1</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name Hello World Hello World Hello World</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">15</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">1</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+          <div class="cart-item">
+            <ul class="item-info">
+              <li>Item Name</li>
+              <li>- 10000 MMK</li>
+            </ul>
+            <div class="count">1</div>
+            <div class="action-buttons">
+              <button>+</button>
+              <button>-</button>
+              <button><i class="fa-solid fa-trash"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="right-section-bottom">
+          <span>Total Amount : </span>
+          <span>300000 </span>
+          <span> - MMK</span>
+        </div>
+      </main>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
